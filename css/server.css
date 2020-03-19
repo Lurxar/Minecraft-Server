@@ -1,0 +1,55 @@
+body{
+	margin: 5px;
+	font-family: 'PT Serif', Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	background-color: lightgrey;
+	max-width: 1000px;
+}
+
+header{
+	background-image: url("https://i.pinimg.com/originals/8a/79/ae/8a79ae60c65c025c65d1e9a70fdacd95.jpg");
+	background-color: darkgrey;
+	text-align: center;
+	border: 10px solid black;
+}
+
+h1{
+	font-size: 50px;
+
+}
+
+nav{
+	padding-left: 20px;
+	border-bottom: 2px solid black;
+}
+
+main{
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+main img{
+	max-width: 100%;
+
+}
+
+a{
+	color: mediumblue;
+}
+
+a:hover{
+
+	background-color: darkgrey;
+	font-style: italic;
+}
+
+footer{
+	padding-left: 20px;
+	background-color: darkgrey;
+}
+
+p.caption{
+	font-style: italic;
+}
