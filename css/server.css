@@ -7,28 +7,36 @@ body{
 	max-width: 1000px;
 }
 
+/*Header*/
 header{
 	background-image: url("https://i.pinimg.com/originals/8a/79/ae/8a79ae60c65c025c65d1e9a70fdacd95.jpg");
 	background-color: darkgrey;
 	text-align: center;
 	border: 10px solid black;
-}
 
-h1{
+}
+header h1{
 	font-size: 50px;
 
 }
+/*----------*/
 
+/*Verzeichnis:*/
 nav{
 	padding: 5px 20px;
 	background-color: darkgrey;
 	border-bottom: 2px solid black;
 }
-/*nav h2 span?*/
-span{
+.vz{
 	border: 2px solid black;
 	padding: 2px;
 }
+/*----------*/
+
+/*Karte:*/
+
+/*----------*/
+
 main{
 	padding-left: 20px;
 	padding-bottom: 20px;
@@ -40,6 +48,7 @@ main img{
 
 }
 
+/*Links:*/
 a{
 	color: mediumblue;
 }
@@ -49,6 +58,7 @@ a:hover{
 	background-color: lightgrey;
 	font-style: italic;
 }
+/*----------*/
 
 footer{
 	padding-left: 20px;
@@ -61,4 +71,8 @@ p.caption{
 
 div{
 	padding-bottom: 10px;
+}
+
+a .seitenanfang{
+	background-color: darkgrey;
 }
