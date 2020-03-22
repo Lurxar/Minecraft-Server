@@ -1,6 +1,6 @@
 body{
 	margin: 5px;
-	font-family: 'PT Serif', Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;;
 	font-size: 15px;
 	line-height: 20px;
 	background-color: lightgrey;
@@ -19,21 +19,126 @@ header h1{
 	font-size: 50px;
 
 }
+
+h2{
+	display: inline-block;
+	margin: 15px 0 0 0;
+	padding: 5px;
+	padding-left: 0;
+	text-decoration: underline;
+}
+h2:hover{
+	background-color: darkgrey;
+}
+nav h2:hover{
+	background-color: grey;
+}
 /*----------*/
 
 /*Verzeichnis:*/
 nav{
+	height: 240px;
 	padding: 5px 20px;
 	background-color: darkgrey;
 	border-bottom: 2px solid black;
+	position: relative;
 }
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+nav ul li.vz2{
+	float: initial;
+}
+
+nav ul li.vz a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding: 2px 5px;
+	margin: 2px 5px;
+	box-shadow: 0 0 0 2px rgba(1,1,1,.15);
+	border-radius: 5px;
+	/*
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 5px;*/
+}
+
+nav ul li.vz2 a{
+	text-transform: initial;
+	font-weight: normal;	
+}
+/*
+nav a{
+	color: black;
+	text-decoration: none;
+}
+*/
+/*
+nav:hover{
+	color: transparent;
+	background-color: transparent;
+}
+*/
+/*
 .vz{
 	border: 2px solid black;
 	padding: 2px;
+	line-height: 30px;
+	position: absolute;
 }
+
+.vz.seitenziel{
+	left: 20px;
+}
+.vz.info{
+	left: 135px;
+}
+.vz.aufbau{
+	left: 249px;
+}
+.vz.karte{
+	left: 308px;
+}
+.vz.personen{
+	left: 401px;
+}
+.vz.infrastruktur{
+	left: 496px;
+}
+
+*/
 /*----------*/
 
 /*Karte:*/
+
+main .m.karte{
+	height: 1050px;
+}
+.map{
+	float: left;
+	width: 450px;
+	padding: 5px;
+	font-size: 15px;
+	font-style: italic;
+}
+.container{
+	height: 960px;
+}
 
 /*----------*/
 
@@ -41,14 +146,47 @@ main{
 	padding-left: 20px;
 	padding-bottom: 20px;
 	border-bottom: 2px solid black;
+	margin-left: 25px; 
 }
 
+
+main h2{
+	margin-left: -30px;
+}
+
+main .m.personen img, main .m.infrastruktur img{
+	height: 500px;
+}
+
+main .hidden{
+	font-style: italic;
+	color: white;
+	/*color: transparent;
+	background-color: transparent;*/
+	position: relative;
+	top: -26px;
+	padding: 2px;
+}
+
+main .hidden:hover{
+	background-color: lightgrey;
+	color: black;
+}
+
+main .koordinaten{
+	padding: 0 2px;
+	font-style: italic;
+	color: blue;
+	background-color: darkgrey; 
+}
+/*
 main img{
 	max-width: 100%;
 
 }
-
+*/
 /*Links:*/
+
 a{
 	color: mediumblue;
 }
@@ -65,14 +203,11 @@ footer{
 	background-color: darkgrey;
 }
 
-p.caption{
+.caption{
 	font-style: italic;
 }
 
 div{
 	padding-bottom: 10px;
-}
 
-a .seitenanfang{
-	background-color: darkgrey;
 }
