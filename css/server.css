@@ -13,8 +13,12 @@ header{
 	background-color: darkgrey;
 	text-align: center;
 	border: 10px solid black;
-
 }
+
+header img{
+	height: 500px;
+}
+
 header h1{
 	font-size: 50px;
 
@@ -82,50 +86,8 @@ nav ul li.vz2 a{
 	text-transform: initial;
 	font-weight: normal;	
 }
-/*
-nav a{
-	color: black;
-	text-decoration: none;
-}
-*/
-/*
-nav:hover{
-	color: transparent;
-	background-color: transparent;
-}
-*/
-/*
-.vz{
-	border: 2px solid black;
-	padding: 2px;
-	line-height: 30px;
-	position: absolute;
-}
-
-.vz.seitenziel{
-	left: 20px;
-}
-.vz.info{
-	left: 135px;
-}
-.vz.aufbau{
-	left: 249px;
-}
-.vz.karte{
-	left: 308px;
-}
-.vz.personen{
-	left: 401px;
-}
-.vz.infrastruktur{
-	left: 496px;
-}
-
-*/
-/*----------*/
 
 /*Karte:*/
-
 main .m.karte{
 	height: 1050px;
 }
@@ -139,7 +101,6 @@ main .m.karte{
 .container{
 	height: 960px;
 }
-
 /*----------*/
 
 main{
@@ -174,7 +135,7 @@ main .hidden:hover{
 }
 
 main .koordinaten{
-	padding: 0 2px;
+	padding-right: 3px;
 	font-style: italic;
 	color: blue;
 	background-color: darkgrey; 
